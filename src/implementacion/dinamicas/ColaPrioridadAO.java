@@ -1,6 +1,6 @@
 package implementacion.dinamicas;
 
-import apis.ColaPrioridadTDA;
+import api.ColaPrioridadTDA;
 
 public class ColaPrioridadAO implements ColaPrioridadTDA{
 

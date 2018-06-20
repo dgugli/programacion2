@@ -1,6 +1,6 @@
 package implementacion.estaticos;
 
-import apis.ConjuntoTDA;
+import api.ConjuntoTDA;
 
 public class ConjuntoTA implements ConjuntoTDA {
 

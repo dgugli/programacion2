@@ -1,6 +1,6 @@
 package implementacion.dinamicas;
 
-import apis.ColaTDA;
+import api.ColaTDA;
 
 public class ColaLD implements ColaTDA {
 

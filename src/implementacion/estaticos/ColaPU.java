@@ -1,6 +1,6 @@
 package implementacion.estaticos;
 
-import apis.ColaTDA;
+import api.ColaTDA;
 
 // Ultimo elemento
 public class ColaPU implements ColaTDA {

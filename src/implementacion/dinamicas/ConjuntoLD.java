@@ -1,6 +1,6 @@
 package implementacion.dinamicas;
 
-import apis.ConjuntoTDA;
+import api.ConjuntoTDA;
 
 public class ConjuntoLD implements ConjuntoTDA {
 

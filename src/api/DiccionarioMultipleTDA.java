@@ -1,4 +1,4 @@
-package apis;
+package api;
 
 public interface DiccionarioMultipleTDA {
 	void InicializarDiccionario();

@@ -1,4 +1,4 @@
-package apis;
+package api;
 
 public interface ABBTDA {
 	int Raiz();

@@ -1,6 +1,6 @@
 package implementacion.dinamicas;
 
-import apis.PilaTDA;
+import api.PilaTDA;
 
 public class PilaLD implements PilaTDA {
 

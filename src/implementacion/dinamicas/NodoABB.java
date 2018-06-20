@@ -1,6 +1,6 @@
 package implementacion.dinamicas;
 
-import apis.ABBTDA;
+import api.ABBTDA;
 
 public class NodoABB {
 	int info;

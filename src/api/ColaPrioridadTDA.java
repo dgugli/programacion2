@@ -1,4 +1,4 @@
-package apis;
+package api;
 
 public interface ColaPrioridadTDA {
 	void InicializarCola();

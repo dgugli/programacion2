@@ -1,6 +1,6 @@
 package implementacion.estaticos;
 
-import apis.ColaPrioridadTDA;
+import api.ColaPrioridadTDA;
 
 public class ColaPrioridadDA implements ColaPrioridadTDA {
 	int[] elementos;

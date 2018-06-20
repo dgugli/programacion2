@@ -1,6 +1,6 @@
 package implementacion.estaticos;
 
-import apis.ColaTDA;
+import api.ColaTDA;
 // Primero ingresado toma posicion inicial
 public class ColaPI implements ColaTDA{
 	

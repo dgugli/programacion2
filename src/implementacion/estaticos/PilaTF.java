@@ -1,6 +1,6 @@
 package implementacion.estaticos;
 
-import apis.PilaTDA;
+import api.PilaTDA;
 
 public class PilaTF implements PilaTDA {
 

@@ -1,7 +1,7 @@
 package implementacion.dinamicas;
 
-import apis.ConjuntoTDA;
-import apis.DiccionarioSimpleTDA;
+import api.ConjuntoTDA;
+import api.DiccionarioSimpleTDA;
 
 public class DicSimpleL implements DiccionarioSimpleTDA {
 

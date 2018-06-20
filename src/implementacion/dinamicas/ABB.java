@@ -1,6 +1,6 @@
 package implementacion.dinamicas;
 
-import apis.ABBTDA;
+import api.ABBTDA;
 
 public class ABB implements ABBTDA {
 

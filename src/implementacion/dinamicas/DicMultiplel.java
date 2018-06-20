@@ -1,7 +1,7 @@
 package implementacion.dinamicas;
 
-import apis.ConjuntoTDA;
-import apis.DiccionarioMultipleTDA;
+import api.ConjuntoTDA;
+import api.DiccionarioMultipleTDA;
 
 public class DicMultiplel implements DiccionarioMultipleTDA {
 
@@ -85,10 +85,8 @@ public class DicMultiplel implements DiccionarioMultipleTDA {
 					if (aux.sigClave.valores==null)
 						aux.sigClave = aux.sigClave.sigClave;
 				}
-			}
-		
+			}	
 		}
-
 	}
 
 	private void EliminarValorEnNodo(NodoClave nodo, int valor) {

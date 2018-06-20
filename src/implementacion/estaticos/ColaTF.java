@@ -1,6 +1,6 @@
 package implementacion.estaticos;
 
-import apis.ColaTDA;
+import api.ColaTDA;
 
 public class ColaTF implements ColaTDA {
 // ColaPI
