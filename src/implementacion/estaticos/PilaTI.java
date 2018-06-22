@@ -22,7 +22,7 @@ public class PilaTI implements PilaTDA {
 
 	@Override
 	public void Desapilar() {
-		for (int i=0; i<indice; i++)
+		for (int i=0; i<indice-1; i++)
 			a[i] =a[i+1];
 		indice--;
 	}

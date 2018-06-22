@@ -10,7 +10,6 @@ import implementacion.dinamicas.ConjuntoLD;
 import implementacion.estaticos.ColaPI;
 import implementacion.estaticos.ColaPU;
 import implementacion.estaticos.ColaPrioridadDA;
-import implementacion.estaticos.ColaTF;
 import implementacion.estaticos.PilaTF;
 
 public class Utilidades {
@@ -338,7 +337,7 @@ public class Utilidades {
 					verificaABBElementosIguales(a.HijoIzq(), b.HijoIzq())));
 		}				
 		else // si llego al final devuelve true ya que son identicos hasta el final, si hay diferencias devuelve false
-			return (a.ArbolVacio() && b.ArbolVacio() ? true : false);
+			return (a.ArbolVacio() && b.ArbolVacio());
 	}
 	
 	public boolean verificaABBIguales(ABBTDA a, ABBTDA b) {
@@ -347,7 +346,7 @@ public class Utilidades {
 			return ( (verificaABBIguales(a.HijoDer(), b.HijoDer()) && verificaABBIguales(a.HijoIzq(), b.HijoIzq())));
 		}				
 		else // si llego al final devuelve true ya que son identicos hasta el final, si hay diferencias devuelve false
-			return (a.ArbolVacio() && b.ArbolVacio() ? true : false);
+			return (a.ArbolVacio() && b.ArbolVacio());
 	}
 	
 	public int Contar(ABBTDA a) {
@@ -471,8 +470,7 @@ public class Utilidades {
 				c2.Sacar(elemento);
 			}			
 		}
-		return (c1.ConjuntoVacio() && c2.ConjuntoVacio());
-		
+		return (c1.ConjuntoVacio() && c2.ConjuntoVacio());		
 	}
 	
 	// Colas
@@ -484,7 +482,7 @@ public class Utilidades {
 	}
 	
 	public void copiarCola(ColaTDA origen, ColaTDA destino) {
-		ColaTDA aux = new ColaTF();
+		ColaTDA aux = new ColaPU();
 		aux.InicializarCola();
 		
 		pasarCola(origen, aux);
